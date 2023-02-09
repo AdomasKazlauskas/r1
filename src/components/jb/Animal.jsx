@@ -3,6 +3,7 @@ import ShowName from './ShowName';
 
 function Animal({color, animalName, h1Class}) {
 
+
     const fontFamily = 'monospace';
 
     return (
