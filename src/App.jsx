@@ -1,5 +1,5 @@
 import './App.scss';
-import Animal from './Components/jb/Animal';
+import Animal from './components/jb/Animal';
 
 const obj = ['racoon', 'fox'];
 
@@ -9,7 +9,6 @@ const obj = ['racoon', 'fox'];
 
 function App() {
 
-    
 
     // const fox = <u>FOX number: {rand(100, 199)}</u>;
 
