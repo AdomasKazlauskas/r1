@@ -16,9 +16,14 @@ function App() {
   const [sq, setSq] = useState([]);
   console.log(sq);
 
+  const hsndle = (e) => {
+    // console.log(e.target.value);
+  };
+
   return (
     <div className="App">
       <header className="App-header">
+        <input type={"text"} onChange={(e) => hsndle(e)} />
         <div className="sq-bin">
           {sq.map((s, i) =>
             s.show ? <Sq key={i} s={s} i={i} setSq={setSq} /> : null
